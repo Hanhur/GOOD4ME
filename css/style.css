@@ -204,3 +204,94 @@ body
     color: #fff;
     background: #F6623E;
 }
+/* ---------------------------------------------------------------- */
+.deal
+{
+    margin-bottom: 140px;
+}
+.deal_text
+{
+    text-align: center;
+    margin-bottom: 37px;
+    /* padding: 0 580px; */
+}
+.deal-title
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #000;
+    margin-bottom: 20px;
+}
+.deal-img
+{
+    width: 127px;
+    height: 4px;
+    background: #F6623E;
+    margin-bottom: 25px;
+}
+.deal-text
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #454545;
+}
+.deal-content_list
+{
+    display: flex;
+    gap: 31px;
+    justify-content: center;
+    margin-bottom: 23px;
+}
+.images
+{
+    border: 1px solid #E8E8E8;
+    background: #F4F3F4;
+    padding: 45px 42px;
+}
+.deal-content_items
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 138px;
+    gap: 135px;
+    position: relative;
+}
+.deal-content_text1
+{
+    position: absolute;
+    left: 25px;
+}
+.deal-content_text2
+{
+    position: absolute;
+    left: 455px;
+}
+.deal-content_text3
+{
+    position: absolute;
+    right: 480px;
+}
+.deal-content_text4
+{
+    position: absolute;
+    right: 75px;
+}
+.deal-content_text1,
+.deal-content_text2,
+.deal-content_text3,
+.deal-content_text4
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #000;
+}
+.deal-services
+{
+    display: flex;
+}
