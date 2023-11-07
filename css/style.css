@@ -34,264 +34,888 @@ body
 {
     font-family: 'Jost', sans-serif;
     font-family: 'Work Sans', sans-serif;
-    overflow-x: hidden;
-    overflow-y: scroll;
+    /* overflow-x: hidden;
+    overflow-y: scroll; */
+}
+:root 
+{
+    --Primary-color: #f6623e;
+    --Secondary-color: #454545;
+    --Nobel-color: #9d9d9d;
+    --Nobel-white-color: #FFFFFF;
+    --Black-color: #000000;
+    --Gray-color: #828181;
 }
 .container
 {
-    max-width: 1696px;
+    max-width: 1940px;
     padding: 0 10px;
+    margin: 0 auto;
+}
+.wrapper
+{
+    width: 1194px;
+    height: 178px;
+    margin: 0 auto;
+}
+.content-latest
+{
+    width: 1262px;
+    height: 615px;
     margin: 0 auto;
 }
 /* -------------------------------- Header ----------------------------- */
 .header-top
 {
-    height: 50px;
     display: flex;
-    justify-content: space-between;
+    text-align: center;
     align-items: center;
-    background-color: #F6623E;
-    padding: 15px 120px 15px 120px;
-    margin-bottom: 40px;
+    justify-content: space-between;
+    background-color: var(--Primary-color);
+    padding: 15px 120px;
 }
 
-.header-top_list
-{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 .header-top_text
 {
     font-family: 'Jost', sans-serif;
     font-size: 16px;
     font-weight: 400;
-    line-height: 20px; 
-    color: #fff;
+    line-height: 20px;
+    color: var(--Nobel-white-color);
 }
-.header-top_link,
-.header-top_slesh
+
+.header-top_list
+{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.header-top_link
 {
     font-family: 'Jost', sans-serif;
     font-size: 16px;
     font-weight: 400;
-    line-height: 20px; 
-    color: #fff;
+    line-height: 20px;
+    color: var(--Nobel-white-color);
 }
-.header-top_slesh
+
+.slesh
 {
-    padding: 0 5px;
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: var(--Nobel-white-color);
+    margin: 0 10px;
 }
-.header-top_line
+
+.line
 {
-    padding: 0 20px;
-    color: #fff;
+    margin: 0 20px;
+    width: 1px;
+    height: 27px;
+    background: var(--Nobel-white-color);
 }
+
+.header-top_changer
+{
+    display: flex;   
+}
+
 .header-top_flag
 {
-    margin-right: 6px;
+    margin-right: 7px;
 }
-.header-top_banknotes
+
+.change-text
 {
     font-family: 'Jost', sans-serif;
     font-size: 16px;
     font-weight: 400;
-    line-height: 20px; 
-    color: #fff;
-    margin-right: 3px;
+    line-height: 20px;
+    color: var(--Nobel-white-color);
+    text-align: center;
+    margin: 3px;
 }
+
 .header-top_down
 {
-    width: 8px;
-    height: 4px;
+    color: var(--Nobel-white-color);
 }
-.header-menu
+
+.nav
 {
+    max-width: 1688px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 120px;
-    margin-bottom: 40px;
+    padding: 28px 123px 28px 109px;
+    margin: 0 auto;
 }
-.header-menu_logo
-{
-    width: 198px;
-    height: 47px;
-}
-.menu-list
+
+.nav-list
 {
     display: flex;
-    gap: 50px;
+    gap: 70px;
+    align-items: center;
 }
-.menu-link
+
+.nav-item_link
 {
     font-family: 'Jost', sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
+    color: var(--Secondary-color);
 }
-.header-navigashen
+
+.nav-item_link:focus
 {
-    display: flex;
-    align-items: center;
+    color: var(--Primary-color);
 }
-.header_navigashen_link
-{
-    margin-right: 15px;
-    width: 22px;
-    height: 22px;
-}
-/* ------------------------------ Main -------------------------------- */
-.vinegar
-{
-    margin-bottom: 96px;
-}
-.vinegar-bg
+.box
 {
     position: relative;
 }
-.vinegar-img_bg
+.nav-link
 {
-    width: 1643px;
-    height: 641px;
+    align-items: center;
 }
-.vinegar-content
+.nav-loupe
+{
+    width: 22px;
+    height: 22px;
+    color: var(--Secondary-color);
+    margin-right: 15px;
+}
+
+.nav-basket
+{
+    width: 18px;
+    height: 24px;
+    color: var(--Secondary-color);
+}
+
+.nav-ellipse
+{
+    content: '';
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: 53px;
+}
+/* ================================= Main ======================= */
+.main-section
+{
+    margin-bottom: 96px;
+}
+.main-content
+{
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 1920px;
+    height: 641px;
+    position: relative;
+}
+
+.main-context
 {
     position: absolute;
+    display: block;
     top: 151px;
-    left: 1000px;
+    left: 800px;
 }
-.vinegar-text_1
+
+.main_text
 {
     font-family: 'Jost', sans-serif;
     font-size: 26px;
     font-weight: 600;
     line-height: 42px;
-    width: 121px;
-    height: 45px;
-    color: #F6623E;
-    margin-bottom: 4px;
+    color: var(--Primary-color);
 }
-.vinegar-title
+
+.main-title
 {
     font-family: 'Jost', sans-serif;
     font-size: 56px;
     font-weight: 600;
-    line-height: 72px; 
-    color: #000;
-    margin-bottom: 10px;
+    line-height: 72px;
+    margin-bottom: 11px;
 }
-.vinegar-text_2
+
+.main-text
 {
     font-family: 'Jost', sans-serif;
     font-size: 16px;
     font-weight: 400;
-    line-height: 29px; 
+    line-height: 29px;
     width: 512px;
-    height: 62px;
-    color: #454545;
+    color: var(--Secondary-color);
     margin-bottom: 38px;
 }
-.vinegar-btn
+
+.main-button
 {
     font-family: 'Jost', sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 20px;
-    padding: 15px 25px;
+    text-transform: uppercase;
     width: 140px;
     height: 47px;
-    color: #fff;
-    background: #F6623E;
+    color: var(--Nobel-white-color);
+    background: var(--Primary-color);
 }
-/* ---------------------------------------------------------------- */
-.deal
+/* ========================= GOOD4ME DEAL ====================== */
+.section
 {
     margin-bottom: 140px;
 }
-.deal_text
+.context
 {
-    text-align: center;
-    margin-bottom: 37px;
-    /* padding: 0 580px; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
-.deal-title
+.good-title
 {
     font-family: 'Jost', sans-serif;
     font-size: 36px;
     font-weight: 500;
     line-height: 32px;
-    color: #000;
+    text-align: center;
+    color: var(--Black-color);
     margin-bottom: 20px;
 }
-.deal-img
+.good-img
 {
     width: 127px;
     height: 4px;
-    background: #F6623E;
     margin-bottom: 25px;
 }
-.deal-text
+.good-text
 {
     font-family: 'Jost', sans-serif;
     font-size: 18px;
     font-weight: 500;
     line-height: 24px;
-    color: #454545;
+    width: 759px;
+    height: 55px;
+    text-align: center;
+    color: var(--Secondary-color);
+    margin-bottom: 36px;
 }
-.deal-content_list
+
+.good-list
 {
     display: flex;
-    gap: 31px;
-    justify-content: center;
-    margin-bottom: 23px;
+    gap: 20px;
 }
-.images
+.good-images
 {
     border: 1px solid #E8E8E8;
     background: #F4F3F4;
     padding: 45px 42px;
 }
-.deal-content_items
+.images
 {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 138px;
-    gap: 135px;
-    position: relative;
+    width: 395px;
+    height: 408px;
+    margin-bottom: 23px;
 }
-.deal-content_text1
-{
-    position: absolute;
-    left: 25px;
-}
-.deal-content_text2
-{
-    position: absolute;
-    left: 455px;
-}
-.deal-content_text3
-{
-    position: absolute;
-    right: 480px;
-}
-.deal-content_text4
-{
-    position: absolute;
-    right: 75px;
-}
-.deal-content_text1,
-.deal-content_text2,
-.deal-content_text3,
-.deal-content_text4
+.good_text
 {
     font-family: 'Jost', sans-serif;
     font-size: 18px;
     font-weight: 500;
     line-height: 24px;
-    color: #000;
+    color: var(--Black-color);
+    text-align: center;
+    margin-bottom: 138px;
 }
-.deal-services
+
+.good__list
 {
     display: flex;
+    gap: 171px
+}
+.good__item
+{
+    text-align: center;
+    position: relative;
+}
+.good__img
+{
+    margin-bottom: 25px;
+}
+.good__images
+{
+    content: '';
+    position: absolute;
+    top: 27px;
+    right: 85px;
+    z-index: -1;
+}
+.good__title
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    color: var(--Black-color);
+    margin-bottom: 11px;
+}
+.good__text
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px; 
+    text-align: center;
+    color: var(--Gray-color);
+    width: 248px;
+}
+/* ======================== Control ===================== */
+.section-control
+{
+    margin-bottom: 136px;
+}
+.control-content
+{
+    display: flex;
+    width: 188px;
+    height: 661px;
+}
+.control-good
+{
+    display: block;
+    padding: 135px 90px;
+}
+.control-title
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: 3px;
+    color: var(--Black-color);
+    margin-bottom: 17px;
+    width: 515px;
+}
+.control-text
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+    color: var(--Secondary-color);
+    margin-bottom: 12px;
+    width: 476px;
+}
+.control-button
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+    margin-top: 22px;
+    text-align: center;
+    color: var(--Black-color);
+    border: 2px solid var(--Primary-color);
+    padding: 18px 45px;
+}
+.control-images
+{
+    display: flex;
+}
+.controls
+{
+    margin-bottom: 30px;
+    margin-right: 28px;
+    width: 445px;
+    height: 320px;
+}
+.control
+{
+    width: 445px;
+    height: 320px;
+    border: none;
+}
+.control-img
+{
+    width: 480px;
+    height: 670px;
+}
+/*  ============================= Products ====================== */
+.section-products
+{
+    margin-bottom: 111px;
+}
+.products-title
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 32px;
+    color: var(--Black-color);
+    text-align: center;
+    margin-bottom: 58px;
+}
+.products-list
+{
+    display: flex;
+    gap: 20px;
+}
+.products-img
+{
+    margin-bottom: 22px;
+}
+.good4me-vitamin
+{
+    border: 1px solid #E8E8E8;
+    background: #F4F3F4;
+    padding: 45px 113px;
+}
+.good4me-multi
+{
+    border: 1px solid #E8E8E8;
+    background: #F4F3F4;
+    padding: 45px 42px;
+}
+.products_title
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 2px;
+    color: var(--Black-color);
+    margin-bottom: 7px;
+    text-align: center;
+}
+.products-text
+{
+    display: flex;
+    justify-content: center;
+    gap: 21px;
+}
+.products_text
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: var(--Primary-color);
+    margin-bottom: 60px;
+}
+.products
+{
+    color: var(--Gray-color);
+    text-decoration-line: line-through;
+}
+.products-button
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: center;
+    color: var(--Black-color);
+    border: 2px solid var(--Primary-color);
+    padding: 15px 48px;
+    display: block;
+    margin: 0 auto;
+}
+/* ======================== Results ================= */
+.section-results
+{
+    margin-bottom: 82px;
+    background: #FEF0E7;
+}
+.results-inner
+{
+    display: flex;
+}
+.results
+{
+    display: block;
+    justify-content: center;
+    padding: 60px 106px 163px 331px;
+}
+.results-text
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: var(--Black-color);
+    margin-bottom: 46px;
+}
+.results-title
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: var(--Primary-color);
+    margin-bottom: 24px;
+}
+.results-list
+{
+    display: flex;
+    gap: 4px;
+}
+.results-item img
+{
+    margin-bottom: 24px;
+}
+.results_text
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: 1px;
+    width: 620px;
+    color: var(--Secondary-color);
+    margin-bottom: 23px;
+}
+.results-chloe
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 1px;
+    color: var(--Primary-color);
+    margin-bottom: 32px;
+}
+.results-row
+{
+    display: flex;
+}
+.results-row_item img
+{
+    width: 44px;
+    height: 44px;
+    margin-right: 20px;
+}
+/* ======================== Shoping ================== */
+.section-shoping
+{
+    margin-bottom: 118px;
+}
+.shop-title
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 32px;
+    color: var(--Black-color);
+    text-align: center;
+    margin-bottom: 50px;
+}
+.shop-list
+{
+    display: flex;
+    gap: 15px;
+}
+.good4me-hair
+{
+    border: 1px solid #E8E8E8;
+    background: #F4F3F4;
+    padding: 55px 31px;
+}
+.good4me-detox
+{
+    border: 1px solid #E8E8E8;
+    background: #F4F3F4;
+    padding: 45px 55px;
+}
+.shop-img
+{
+    margin-bottom: 22px;
+}
+.shop_title
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: var(--Black-color);
+    width: 388px;
+    margin-bottom: 7px;
+}
+.shoping-text
+{
+    display: flex;
+    justify-content: center;
+    gap: 21px;
+}
+.shop_text
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: var(--Primary-color);
+    margin-bottom: 60px;
+}
+.shoping
+{
+    color: var(--Gray-color);
+    text-decoration-line: line-through;
+}
+/* ===================== Latest ================ */
+.section-latest
+{
+    margin-bottom: 119px;
+}
+.latest-title
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 32px;
+    color: var(--Black-color);
+    text-align: center;
+    margin-bottom: 47px;
+}
+.latest-list
+{
+    display: flex;
+    gap: 12px;
+}
+.latest-item
+{
+    text-align: center;
+}
+.latest-img
+{
+    margin-bottom: 18px;
+}
+.latest-text
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    color: var(--Primary-color);
+    margin-bottom: 3px;
+}
+.latest_title
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 44px;
+    color: var(--Black-color);
+    margin-bottom: 3px;
+}
+.latest_text
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: var(--Gray-color);
+    margin-bottom: 21px;
+    width: 389px;
+}
+.latest-button
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-transform: uppercase;
+    width: 140px;
+    height: 44px;
+    color: var(--Nobel-white-color);
+    background: var(--Primary-color);
+}
+/* ============================== Goods =============== */
+.sections
+{
+    margin-bottom: 136px;
+}
+.goods-tilte
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 32px;
+    color: var(--Black-color);
+    text-align: center;
+    margin-bottom: 40px;
+}
+.goods-list
+{
+    display: flex;
+    gap: 10px;
+}
+/* =================================== Footer ===================== */
+.footer-goodles
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.footer-content_list
+{
+    display: flex;
+    flex-direction: column;
+}
+.footer-logo
+{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.footer-content_text
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 326px;
+    text-align: center;
+    color: var(--Secondary-color);
+}
+.footer-keep_touch
+{
+    display: flex;
+    flex-direction: column;
+}
+.footer-keep_list
+{
+    text-align: center;
+}
+.footer-keep_title
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 26px;
+    color: var(--Black-color);
+    margin-bottom: 11px;
+}
+.footer-keep_text
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    color: var(--Secondary-color);
+    margin-bottom: 32px;
+}
+.footer-keep_email
+{
+    margin-right: 280px;
+}
+.footer-keep_email::placeholder 
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    color: var(--Black-color);
+}
+input[type=text] 
+{
+    box-sizing: border-box;
+    border: none;
+}
+.footer-keep_subscribe
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--Primary-color);
+}
+.footer-info_title
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px; 
+    color: var(--Black-color);
+    margin-bottom: 13px;
+}
+.footer-info_link
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 33px;
+    color: var(--Secondary-color);
+}
+
+
+.footer-container
+{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.footer-container::before 
+{
+    content: '';
+    position: absolute;
+    opacity: 0.2;
+    background: var(--Gray-color);
+    min-width: 1676px;
+    height: 1px;
+}
+.footer-container_list,
+.footer-container_text,
+.footer-cash
+{
+    display: flex;
+    margin-top: 22px;
+}
+.footer-container_list
+{
+    gap: 20px;
+}
+.footer-container_item
+{
+   margin-top: 15px;
+}
+.footer-container_text
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--Black-color);
+    margin-top: 35px;
+}
+.footer-container_text span 
+{
+    color: var(--Primary-color);
+}
+.footer-cash
+{
+    margin-bottom: 23px;
+}
+.footer-cash_list
+{
+    display: flex;
+    gap: 17px;
+    align-items: center;
 }
