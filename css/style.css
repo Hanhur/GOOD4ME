@@ -233,7 +233,7 @@ body
     font-family: 'Jost', sans-serif;
     font-size: 26px;
     font-weight: 600;
-    line-height: 42px;
+    line-height: 1.6;
     color: var(--Primary-color);
 }
 
@@ -268,6 +268,82 @@ body
     height: 47px;
     color: var(--Nobel-white-color);
     background: var(--Primary-color);
+}
+/* ========================== Vitamins ================================ */
+.vitamin_inner
+{
+    display: flex;
+    margin-bottom: 240px;
+}
+.vitamin
+{
+    padding: 66px 156px 46px 273px;
+}
+.vitamin-text
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 1.6;
+    color: var(--Primary-color);
+    margin-bottom: 10px;
+}
+.vitamin-title
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 66px;
+    font-weight: 600;
+    line-height: 1.3;
+    color: var(--Black-color);
+    width: 644px;
+    margin-bottom: 30px;
+}
+.vitamin_text
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: var(--Secondary-color);
+    width: 578px;
+    margin-bottom: 31px;
+}
+.vitamin-btn
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.2;
+    text-transform: uppercase;
+    width: 150px;
+    height: 47px;
+    color: var(--Nobel-white-color);
+    background: var(--Primary-color);
+}
+/* ============================= Collection ========================== */
+.collection
+{
+    display: flex;
+}
+.collection-title
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: normal;
+    color: var(--Black-color);
+    width: 570px;
+    margin-bottom: 41px;
+}
+.collection-products img 
+{
+    width: 776px;
+    height: 438px;
+    margin-right: 42px;
+}
+.collection-images
+{
+    margin-bottom: 50px;
 }
 /* ========================= GOOD4ME DEAL ====================== */
 .section
@@ -765,20 +841,22 @@ body
     gap: 10px;
 }
 /* =================================== Footer ===================== */
+.footer
+{
+    
+}
 .footer-goodles
 {
     display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin-bottom: 30px;
-}
-.footer-content_list
-{
-    display: flex;
-    flex-direction: column;
 }
 .footer-logo
 {
-    text-align: center;
     margin-bottom: 10px;
 }
 .footer-content_text
@@ -787,18 +865,15 @@ body
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    width: 326px;
-    text-align: center;
+    text-align: center; 
     color: var(--Secondary-color);
-}
-.footer-keep_touch
-{
-    display: flex;
-    flex-direction: column;
+    width: 326px;
 }
 .footer-keep_list
 {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .footer-keep_title
 {
@@ -814,108 +889,93 @@ body
     font-family: 'Jost', sans-serif;
     font-size: 16px;
     font-weight: 400;
-    line-height: 26px;
-    text-align: center;
+    line-height: 1.6;
     color: var(--Secondary-color);
     margin-bottom: 32px;
+    width: 348px;
 }
-.footer-keep_email
+.footer-keeps-form
 {
-    margin-right: 280px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
 }
-.footer-keep_email::placeholder 
+.footer-keep_email::placeholder
 {
     font-family: 'Jost', sans-serif;
     font-size: 16px;
     font-weight: 400;
-    line-height: 26px;
-    text-align: center;
+    line-height: 1.6;
     color: var(--Black-color);
 }
-input[type=text] 
+input[type=text]
 {
+    padding: 5px 10px;
     box-sizing: border-box;
     border: none;
 }
 .footer-keep_subscribe
 {
-    font-family: 'Jost', sans-serif;
+    color: var(--Primary-color);
     font-size: 16px;
     font-weight: 600;
-    line-height: 26px;
+    line-height: 1.6; 
     text-transform: uppercase;
-    text-align: center;
-    color: var(--Primary-color);
 }
 .footer-info_title
 {
     font-family: 'Jost', sans-serif;
+    color: var(--Black-color);
     font-size: 20px;
     font-weight: 500;
-    line-height: 26px; 
-    color: var(--Black-color);
+    line-height: 1.3;
     margin-bottom: 13px;
+}
+.footer-info_item
+{
+    text-align: left;
+    margin-bottom: 10px;
 }
 .footer-info_link
 {
     font-family: 'Jost', sans-serif;
+    color: var(--Secondary-color);
     font-size: 16px;
     font-weight: 400;
-    line-height: 33px;
-    color: var(--Secondary-color);
+    line-height: 2.0;
 }
-
-
 .footer-container
 {
     display: flex;
     justify-content: space-between;
-    position: relative;
 }
-.footer-container::before 
-{
-    content: '';
-    position: absolute;
-    opacity: 0.2;
-    background: var(--Gray-color);
-    min-width: 1676px;
-    height: 1px;
-}
-.footer-container_list,
-.footer-container_text,
-.footer-cash
-{
-    display: flex;
-    margin-top: 22px;
-}
+
 .footer-container_list
 {
+    display: flex;
     gap: 20px;
-}
-.footer-container_item
-{
-   margin-top: 15px;
 }
 .footer-container_text
 {
     font-family: 'Jost', sans-serif;
     font-size: 16px;
     font-weight: 400;
-    text-align: center;
+    line-height: 1.6;
     color: var(--Black-color);
-    margin-top: 35px;
 }
 .footer-container_text span 
 {
     color: var(--Primary-color);
 }
-.footer-cash
-{
-    margin-bottom: 23px;
-}
 .footer-cash_list
 {
     display: flex;
-    gap: 17px;
     align-items: center;
+    gap: 16px;
+}
+.footer-container_list,
+.footer-container_text,
+.footer-cash_list
+{
+    margin-top: 21px;
 }
