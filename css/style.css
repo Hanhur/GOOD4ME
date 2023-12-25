@@ -64,6 +64,11 @@ body
     height: 615px;
     margin: 0 auto;
 }
+.content-collection 
+{
+    width: 1268px;
+    margin: 0 auto;
+}
 /* -------------------------------- Header ----------------------------- */
 .header-top
 {
@@ -269,254 +274,6 @@ body
     color: var(--Nobel-white-color);
     background: var(--Primary-color);
 }
-/* ========================== Vitamins ================================ */
-.vitamin_inner
-{
-    display: flex;
-    margin-bottom: 240px;
-}
-.vitamin
-{
-    padding: 66px 156px 46px 273px;
-}
-.vitamin-text
-{
-    font-family: 'Jost', sans-serif;
-    font-size: 26px;
-    font-weight: 600;
-    line-height: 1.6;
-    color: var(--Primary-color);
-    margin-bottom: 10px;
-}
-.vitamin-title
-{
-    font-family: 'Jost', sans-serif;
-    font-size: 66px;
-    font-weight: 600;
-    line-height: 1.3;
-    color: var(--Black-color);
-    width: 644px;
-    margin-bottom: 30px;
-}
-.vitamin_text
-{
-    font-family: 'Jost', sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 1.4;
-    color: var(--Secondary-color);
-    width: 578px;
-    margin-bottom: 31px;
-}
-.vitamin-btn
-{
-    font-family: 'Jost', sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.2;
-    text-transform: uppercase;
-    width: 150px;
-    height: 47px;
-    color: var(--Nobel-white-color);
-    background: var(--Primary-color);
-}
-/* ============================= Collection ========================== */
-.collection
-{
-    display: flex;
-    margin-bottom: 120px;
-    margin-left: 333px;
-}
-.collection-title
-{
-    font-family: 'Jost', sans-serif;
-    font-size: 40px;
-    font-weight: 600;
-    line-height: normal;
-    color: var(--Black-color);
-    width: 570px;
-    margin-bottom: 41px;
-}
-.collection-products img 
-{
-    width: 776px;
-    height: 438px;
-    margin-right: 42px;
-}
-.collection-images
-{
-    margin-bottom: 50px;
-}
-/* ========================== Control ========================== */
-.control_inner
-{
-    display: flex;
-    margin-top: 115px;
-    margin-bottom: 115px;
-}
-.control_img 
-{
-    margin-left: 333px;
-    margin-right: 147px;
-}
-.control_item
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.control_title
-{
-    font-family: 'Jost', sans-serif;
-    font-size: 50px;
-    font-weight: 600;
-    line-height: 1.4;
-    letter-spacing: 3px;
-    color: var(--Black-color);
-    width: 515px;
-    margin-bottom: 26px;
-}
-.control_text
-{
-    font-family: 'Jost', sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    color: var(--Secondary-color);
-    margin-bottom: 26px;
-    width: 506px;
-}
-.control_btn
-{
-    font-family: 'Jost', sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    color: var(--Black-color);
-    padding: 18px 45px;
-    width: 260px;
-    border: 2px solid var(--Primary-color);
-}
-/* ======================== Selling Products ==================== */
-.selling_inner
-{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 83px;
-}
-.selling 
-{
-    display: flex;
-    flex-direction: column;
-}
-.selling-title
-{
-    font-family: 'Jost', sans-serif;
-    font-size: 40px;
-    font-weight: 600;
-    line-height: 1.0;
-    color: var(--Black-color);
-    margin-bottom: 10px;
-}
-.selling-text
-{
-    font-family: 'Jost', sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 1.6;
-    color: var(--Secondary-color);
-    width: 487px;
-    margin-right: 585px;
-}
-.selling_all
-{
-    display: flex;
-    align-items: center;
-}
-.selling__title
-{
-    font-family: 'Jost', sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 1.5;
-    text-transform: uppercase;
-    margin-right: 7px;
-    color: var(--Primary-color);
-}
-.selling-item
-{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-bottom: 216px;
-}
-.selling_img
-{
-    margin-bottom: 23px;
-}
-.selling-items
-{
-    font-family: 'Jost', sans-serif;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.4;
-    letter-spacing: 2px;
-    color: var(--Black-color);
-    margin-bottom: 7px;
-}
-.selling-many
-{
-    display: flex;
-    gap: 21px;
-}
-.selling-texts
-{
-    font-family: 'Jost', sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.4;
-    color: var(--Primary-color);
-}
-.products
-{
-    color: var(--Gray-color);
-    text-decoration-line: line-through;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ========================= GOOD4ME DEAL ====================== */
 .section
 {
@@ -1021,8 +778,6 @@ body
 {
     display: flex;
     text-align: center;
-    justify-content: center;
-    align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-bottom: 30px;
@@ -1150,4 +905,612 @@ input[type=text]
 .footer-cash_list
 {
     margin-top: 21px;
+}
+/* ==================================== Home =========================== */
+.section-vitamin
+{
+    margin-top: 72px;
+    margin-bottom: 118px;
+}
+.content_inner
+{
+    display: flex;
+    justify-content: center;
+}
+.vitamin-item
+{
+    padding: 66px 156px 46px 0;
+}
+.vitamin-item_good
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 1.6;
+    color: var(--Primary-color);
+    margin-bottom: 4px;
+}
+.vitami-item_title
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 66px;
+    font-weight: 600;
+    line-height: 1.3;
+    color: var(--Black-color);
+    width: 644px;
+    margin-bottom: 30px;
+}
+.vitamin-item_text
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: var(--Secondary-color);
+    width: 578px;
+    margin-bottom: 30px;
+}
+.vitamin-btn
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.2;
+    text-transform: uppercase;
+    padding: 14px 30px;
+    color: var(--Nobel-white-color);
+    background: var(--Primary-color);
+}
+/* ==================================== Collection =========================== */
+.section-collection
+{
+    margin-bottom: 135px;
+}
+.collection-inner
+{
+    display: flex;
+    justify-content: center;
+}
+.collection-item
+{
+    margin-right: 42px;
+}
+.collection-title
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: normal;
+    color: var(--Black-color);
+    width: 570px;
+    margin-bottom: 41px;
+}
+.collection-images
+{
+    margin-bottom: 50px;
+}
+/* =============================== Control ============================= */
+.section-controls
+{
+    margin-top: 115px;
+    margin-bottom: 115px;
+}
+.control-inner
+{
+    display: flex;
+}
+.control-item
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 147px;
+}
+.control_title
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1.4;
+    letter-spacing: 3px;
+    color: var(--Black-color);
+    margin-bottom: 26px;
+}
+.control_text
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: var(--Secondary-color);
+    margin-bottom: 26px;
+    width: 500px;
+}
+.control_btn
+{
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    padding: 18px 45px;
+    color: var(--Black-color);
+    border: 2px solid var(--Primary-color);
+    width: 260px;
+    height: 56px;
+}
+/* ========================= Selling =================== */
+.section-selling
+{
+    margin-top: 222px;
+    margin-bottom: 216px;
+}
+.selling-inner
+{
+    display: flex;
+    margin-bottom: 83px;
+}
+.selling
+{
+    margin-right: 580px;
+}
+.selling-title
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.0;
+    color: var(--Black-color);
+    margin-bottom: 10px;
+}
+.selling-text
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: var(--Secondary-color);
+    width: 487px;
+}
+.selling-item
+{
+    display: flex;
+    align-items: center;
+}
+.selling-rows
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+    text-transform: uppercase;
+    color: var(--Primary-color);
+    margin-right: 7px;
+}
+.selling-items
+{
+    display: flex;
+    gap: 20px;
+}
+.selling-img
+{
+    margin-bottom: 23px;
+}
+.selling__title
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.4;
+    letter-spacing: 2px;
+    color: var(--Black-color);
+    margin-bottom: 10px;
+}
+.selling-cash
+{
+    display: flex;
+}
+.selling-many
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: var(--Primary-color);
+    margin-right: 21px;
+}
+.selling_many
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: var(--Gray-color);
+    text-decoration-line: line-through;
+}
+/* ============================ Supports ================== */
+.section-supports
+{
+    margin-bottom: 336px;
+}
+.supports-item
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.supports-title
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.0;
+    color: var(--Black-color);
+    margin-bottom: 10px;
+}
+.supports-text
+{
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: var(--Secondary-color);
+    margin-bottom: 92px;
+}
+.supports-list_item
+{
+    display: flex;
+    justify-content: center;
+}
+.supports-list_good1
+{
+    margin-top: 34px;
+    margin-right: 127px;
+}
+.supports-list_items1
+{
+    margin-bottom: 278px;
+}
+.supports-list_title
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.4;
+    color: var(--Primary-color);
+    margin-bottom: 5px;
+}
+.supports-list_text
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: var(--Black-color);
+    width: 287px;
+}
+.weight
+{
+    width: 305px;
+}
+.wellbeing
+{
+    width: 223px;
+}
+.detoxification
+{
+    width: 250px;
+}
+.skin
+{
+    width: 225px;
+}
+.supports-list_good2
+{
+    margin-top: 74px;
+    margin-left: 146px;
+}
+.supports-list_items3
+{
+    margin-bottom: 203px;
+}
+.supports-list_items1
+{
+    position: relative;
+}
+.supports-list_items1::after 
+{
+    content: '';
+    position: absolute;
+    top: 10px;
+    right: 0;
+    left: 315px;
+    bottom: 0;
+    width: 214px;
+    height: 86px;
+    background-image: url(../img/Group1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.supports-list_items2
+{
+    position: relative;
+}
+.supports-list_items2::after 
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 190px;
+    bottom: 0;
+    width: 283px;
+    height: 20px;
+    background-image: url(../img/Group2.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.supports-list_items3
+{
+    position: relative;
+}
+.supports-list_items3::after
+{
+    content: '';
+    position: absolute;
+    top: 15px;
+    right: 0;
+    left: -195px;
+    bottom: 0;
+    width: 250px;
+    background-image: url(../img/Group3.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.supports-list_items4
+{
+    position: relative;
+}
+.supports-list_items4::after
+{
+    content: '';
+    position: absolute;
+    top: -105px;
+    right: 0;
+    left: -250px;
+    bottom: 0;
+    width: 240px;
+    background-image: url(../img/Group4.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* ================================ Services ============================ */
+.services
+{
+    margin-bottom: 100px;
+}
+.services-title
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.0;
+    color: var(--Black-color);
+    margin-bottom: 10px;
+}
+.services-text
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: var(--Secondary-color);
+    width: 487px;
+    margin-bottom: 80px;
+}
+.services-item
+{
+    display: flex;
+    text-align: center;
+    gap: 200px;
+}
+.services-list-img
+{
+    margin-bottom: 22px;
+}
+.services-list-title
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.3;
+    color: var(--Black-color);
+    margin-bottom: 11px;
+}
+.services-list-text
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: var(--Gray-color);
+    width: 285px;
+}
+/* ================================== Clients ========================== */
+.clients
+{
+    background: none;
+    padding: 103px 63px 102px 113px;
+}
+.results
+{
+    padding: 0;
+}
+.clients-products
+{
+   margin-top: 160px;
+}
+.clients-fonts
+{
+    position: relative;
+}
+.clients-img
+{
+    width: 536px;
+    height: 463px;
+    margin-top: 208px;
+    margin-left: 240px;
+    border-radius: 10px;
+}
+.clients-fonts::after 
+{
+    content: '';
+    position: absolute;
+    background-image: url(../img/fon.jpg);
+    top: 0;
+    left: 415px;
+    right: 0;
+    bottom: 0;
+    width: 452px;
+    height: 361px;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
+}
+/* ======================== News ================= */
+.news 
+{
+    margin-bottom: 115px;
+}
+.news-inner
+{
+    display: flex;
+    margin-bottom: 80px;
+}
+.news-posts
+{
+    display: flex;
+    align-items: center;
+}
+.news-title
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.0;
+    color: var(--Black-color);
+    margin-bottom: 10px;
+}
+.news-text
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: var(--Secondary-color);
+    width: 487px;
+    margin-right: 613px;
+}
+.news-posts-title
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+    text-transform: uppercase;
+    color: var(--Primary-color);
+    margin-right: 14px;
+}
+.news-item 
+{
+    display: flex;
+    gap: 44px;
+    margin-bottom: 220px;
+}
+.news-list-items
+{
+    display: flex;
+    margin-bottom: 20px;
+}
+.news-list_text
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 2.0;
+    letter-spacing: 2px;
+    color: var(--Black-color);
+    text-transform: uppercase;
+    writing-mode: vertical-rl;
+    margin-top: 21px;
+    margin-left: 6px;
+}
+.news-list_title
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.4;
+    width: 290px;
+    color: var(--Black-color);
+    margin-bottom: 5px;
+}
+.news-list_texts
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7;
+    width: 355px;
+    color: var(--Gray-color);
+    margin-bottom: 10px;
+}
+.news-more
+{
+    display: flex;
+    align-items: center;
+}
+.news-more_text 
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    text-transform: uppercase;
+    color: var(--Primary-color);
+    margin-right: 10px;
+}
+.news-goodme-title
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.0;
+    color: var(--Black-color);
+    margin-bottom: 15px;
+}
+.news-goodme-text
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.6;
+    width: 487px;
+    color: var(--Secondary-color);
+}
+.swiper 
+{
+    margin-bottom: 360px;
+}
+.swiper-slide
+{
+    display: flex;
+    gap: 40px;
+}
+.swiper-img
+{
+    width: 258px;
+    height: 270px;
+    border-radius: 10px;
 }
