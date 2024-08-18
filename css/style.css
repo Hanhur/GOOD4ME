@@ -927,7 +927,7 @@ input[type=text]
     color: var(--Primary-color);
     margin-bottom: 4px;
 }
-.vitami-item_title
+.vitamin-item_title
 {
     font-family: 'Jost', sans-serif;
     font-size: 66px;
@@ -1597,4 +1597,87 @@ input[type=text]
     width: 258px;
     height: 270px;
     border-radius: 10px;
+}
+/* =================================== Index-v4 ============================ */
+.contents
+{
+    flex-direction: column;
+}
+.vitamin
+{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.vitamin-title
+{
+    width: 1112px;
+}
+.vitamin-img
+{
+    display: flex;
+    justify-content: center;
+}
+/* ============================ content-logo ======================= */
+.content-logo_list
+{
+    display: flex;
+    justify-content: space-between;
+}
+.content-logo_title
+{
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--Nobel-color);
+}
+/* ================================ Main Process ====================== */
+.main-process_title
+{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.5;
+    width: 583px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.main-process_content
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 0 30px;
+}
+.main-process_quality,
+.main-process_clean,
+.main-process_chemical
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid var(--Nobel-color);
+    border-radius: 15px;
+    padding: 30px 15px 50px 15px;
+}
+.main-process_img
+{
+    margin-bottom: 30px;
+}
+.main-process-title
+{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.1;
+    color: var(--Black-color);
+    margin-bottom: 10px;
+}
+.main-process-text
+{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 2;
+    text-align: center;
+    width: 344px;
 }
