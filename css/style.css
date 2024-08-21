@@ -1765,14 +1765,15 @@ input[type=text]
     content: '';
     position: absolute;
     top: 0;
-    left: 780px;
+    left: 895px;
     right: 0;
-    bottom: 0;
-    background-image: url(../img/product-video.png);
+    bottom: -155px;
+    background-image: url(../img/rectangle-58.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    width: 884px;
+    width: 672px;
+    z-index: -1;
 }
 .product-video__title
 {
@@ -1792,7 +1793,7 @@ input[type=text]
 }
 .product_video
 {
-    margin-right: 80px;
+    margin-top: 140px;
 }
 .product-video_text
 {
@@ -2288,4 +2289,9 @@ input[type=text]
     color: var(--Gray-color);
     width: 690px;
     margin-bottom: 50px;
+}
+/* =================================== Our Products Are ==================== */
+.product-video_img
+{
+    width: 860px;
 }
