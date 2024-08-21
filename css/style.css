@@ -2150,3 +2150,46 @@ input[type=text]
     margin-top: 30px;
     width: 485px;
 }
+.commodo
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.latest__title
+{
+    text-align: center;
+    text-transform: uppercase;
+}
+.latest__text
+{
+    margin-right: 0;
+    text-align: center;
+    width: 654px;
+}
+.read-more
+{
+    color: var(--Black-color);
+}
+/* ==================================== contents-images ==================== */
+.contents-images_list
+{
+    display: flex;
+    justify-content: center;
+    gap: 0 20px;
+    margin-bottom: 50px;
+}
+.contents-images_item-2,
+.contents-images_item-4
+{
+    margin-top: 50px;
+}
+.contents-images_title
+{
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 1.6;
+    text-align: center;
+    color: var(--Primary-color);
+    margin-bottom: 200px;
+}
